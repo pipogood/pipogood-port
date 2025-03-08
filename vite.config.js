@@ -9,5 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base:"pipogood.github.io",
+  base:"/pipogood.github.io",
 })
