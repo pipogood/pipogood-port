@@ -10,15 +10,15 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ name, description, tags, image, link}) => {
   return (
-    <motion.div variants={fadeIn("up", "spring")}>
-      {/* <Tilt
+    // <motion.div variants={fadeIn("up", "spring")}>
+      <Tilt
         options={{
           max: 45,
           scale: 1,
           speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-      > */}
+      >
 
         <div className="relative w-full h-[230px]">
           <a href={link} rel="noopener noreferrer">
@@ -45,8 +45,9 @@ const ProjectCard = ({ name, description, tags, image, link}) => {
           ))}
         </div>
 
-      {/* </Tilt> */}
-    </motion.div>
+      </Tilt>
+
+    /* </motion.div> */
   );
 };
 
