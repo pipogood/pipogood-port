@@ -17,7 +17,7 @@ const Home = () => (
 const App = () => {
 
     return (
-      <BrowserRouter basename='/pipogood-port/'>
+      <BrowserRouter basename='/pipogood-port'>
         <div className="relative z-0 bg-black-100 bg-cover bg-no-repeat bg-center">
           <Routes>
             <Route path="/" element={<Home />} />
