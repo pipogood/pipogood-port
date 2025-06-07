@@ -58,10 +58,10 @@ const Project = () => {
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Projects</h2>
       {/* </motion.div> */}
       <div className="w-full flex justify-center items-center">
-        <motion.p variants={fadeIn("", "", 0.1)} className="mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]">
+        {/* <motion.p variants={fadeIn("", "", 0.1)} className="mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]"> */}
           Following projects showcase my skills and experience through examples
           of my work in field of ROBOTICS AI and PROGRAMMING.
-        </motion.p>
+        {/* </motion.p> */}
       </div>
       <div className="mt-10 mb-10 flex flex-wrap gap-7 justify-center items-center">
         {projects.map((project, index) => (
