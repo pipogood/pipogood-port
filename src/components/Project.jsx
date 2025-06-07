@@ -54,9 +54,9 @@ const ProjectCard = ({ name, description, tags, image, link}) => {
 const Project = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      {/* <motion.div variants={textVariant()}> */}
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Projects</h2>
-      </motion.div>
+      {/* </motion.div> */}
       <div className="w-full flex justify-center items-center">
         <motion.p variants={fadeIn("", "", 0.1)} className="mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]">
           Following projects showcase my skills and experience through examples
