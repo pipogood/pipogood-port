@@ -9,5 +9,6 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base:"/pipogood-port/",
+  // base:"/pipogood-port/",
+  base: '/pipogood-port',
 })
