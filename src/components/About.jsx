@@ -6,13 +6,15 @@ import { motion } from 'framer-motion';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
+import {logo} from '../assets';
+
 const About = () => {
   return (
     <section className="flex items-center justify-center w-full h-[700px] mx-auto">
       <div className="max-w-7xl text-center px-4">
          <div className="flex flex-col items-center justify-center">
             <img
-              src="./src/assets/profile_pic.jpg" // ← replace with your image path
+              src={logo} // ← replace with your image path
               alt="Profile"
               className="w-48 h-48 rounded-full object-cover mb-2 mt-10"
             />
