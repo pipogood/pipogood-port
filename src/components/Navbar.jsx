@@ -33,7 +33,7 @@ const Navbar = () => {
               setToggle(false);
             }
           }}
-        >
+        > 
           <a href={`#${link.id}`}>{link.title}</a>
         </li>
       ))}

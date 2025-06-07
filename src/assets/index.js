@@ -26,6 +26,8 @@ import gui from "./projects/gui.png";
 import thesis from "./projects/thesis.png";
 import voice from "./projects/voice.png";
 import teledraw from "./projects/teledraw.png";
+import virart from "./projects/virtual_art.png";
+import photobooth from "./projects/photobooth.png";
 
 // Import tech logos
 import css from "./tech/css.png";
@@ -42,6 +44,7 @@ import logo from "./profile_pic.jpg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import exit from "./exit.png";
 
 
 export {
@@ -79,4 +82,7 @@ export {
   thesis,
   voice,
   teledraw,
+  virart,
+  photobooth,
+  exit
 };

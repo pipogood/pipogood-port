@@ -11,10 +11,8 @@ import {
     nodejs,
     git,
     hci,
-    termpw,
     threejs,
     nx,
-    CompileVortex,
     mitsu,
     kmutt,
     meta,
@@ -25,6 +23,8 @@ import {
     thesis,
     voice,
     teledraw,
+    virart,
+    photobooth
   } from "../assets";
   
   export const navLinks = [
@@ -121,108 +121,113 @@ import {
       description:
         "Utilized Python for the real-time classification brain wave signal of four motor imagery classes (imagine movement direction e.g. left, right ,forward and non-imagine) using deep learning model (CNN-LSTM)",
       tags: [
-        { name: "Machine Learning", color: "blue-text-gradient" },
-        { name: "Jupyter Notebook", color: "green-text-gradient" },
-        { name: "Regression Algorithms", color: "pink-text-gradient" },
+        { name: "Deep Learning", color: "orange-text-gradient" },
+        { name: "Python", color: "orange-text-gradient" },
       ],
       image: thesis,
+      link: "./page2"
     },
     {
       name: "META MOBOT",
       description:
         "Teleoperation of mobile robot control via virtual world",
       tags: [
-        { name: "Javascript", color: "blue-text-gradient" },
-        { name: "HTML", color: "green-text-gradient" },
-        { name: "bootstrap 5.3.0", color: "pink-text-gradient" },
-        { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
+        { name: "Robotics", color: "orange-text-gradient" },
+        { name: "Python", color: "orange-text-gradient" },
       ],
       image: meta,
+      link: "./page2"
     },
     {
       name: "AI-Photobooth",
       description:
         "The Generative-AI application for generate clothing and background style.",
       tags: [
-        { name: "HTML", color: "blue-text-gradient" },
-        { name: "css", color: "green-text-gradient" },
-        { name: "Javascript", color: "pink-text-gradient" },
+        { name: "GenAI", color: "orange-text-gradient" },
+        { name: "Python", color: "orange-text-gradient" },
+        { name: "HTML/css", color: "orange-text-gradient" },
+        { name: "Javascript", color: "orange-text-gradient" },
       ],
-      image: termpw,
+      image: photobooth,
+      link: "./page2"
     },
     {
       name: "Real-time EEG Monitoring GUI", 
       description:
         "Real-time EEG monitoring GUI program for real-time graph plotting and BCI-SSVEP based application.",
       tags: [
-        { name: "shell", color: "blue-text-gradient" },
+        { name: "Machine Learning", color: "blue-text-gradient"},
+        { name: "Python", color: "blue-text-gradient"},
       ],
       image: gui,
+      link: "./page2"
     },
     {
       name: "Virtual art BCI",
       description:
         "Utilized machine learning to classify users' emotions from EEG signals in real time, generating dynamic virtual art that reflects changes in emotional states.",
       tags: [
-        { name: "Javascript", color: "blue-text-gradient" },
-        { name: "CSS", color: "green-text-gradient" },
-        { name: "HTML", color: "pink-text-gradient" },
+        { name: "Machine Learning", color: "blue-text-gradient" },
+        { name: "Python", color: "green-text-gradient" },
       ],
-      image: CompileVortex,
+      image: virart,
+      link: "./page2"
     },
     {
       name: "Teleoperation of Portrait Drawing with Robot Arm",
       description:
         "Utilize generated portrait drawing image from input image then use the OpenCV library to extract lines for drawing with robot arm.",
       tags: [
-        { name: "OpenCV", color: "blue-text-gradient" },
-        { name: "Matplotlib", color: "green-text-gradient" },
+        { name: "Image Processing", color: "green-text-gradient" },
+        { name: "Robotics", color: "green-text-gradient" },
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: teledraw,
+      link: "./page2"
     },
     {
       name: "Voice Controlled Robot Arm",
       description:
         "Design a system to select objects and colors for grabbing through voice commands using the UR3e robot arm.",
       tags: [
-        { name: "OpenCV", color: "blue-text-gradient" },
-        { name: "Matplotlib", color: "green-text-gradient" },
+        { name: "Computer Vision", color: "blue-text-gradient" },
+        { name: "Robotics", color: "green-text-gradient" },
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: voice,
+      link: "./page2"
     },
     {
       name: "Green Cone, Sensor data visualization",
       description:
         "Implemented a front-end web interface to visualize real-time sensor data from Green Cone by querying the API database server.",
       tags: [
-        { name: "OpenCV", color: "blue-text-gradient" },
-        { name: "Matplotlib", color: "green-text-gradient" },
-        { name: "Python", color: "pink-text-gradient" },
+        { name: "Javascript", color: "green-text-gradient" },
+        { name: "HTML/CSS", color: "blue-text-gradient" },
       ],
       image: greencone,
+      link: "./page2"
     },
     {
       name: "3-DOF Robotic Arm Trajectory Tracking System",
       description:
         "Design 3DOF robotics arm to draw a sequence of letters by moving end-effector and simulation robotics arm tracking system in RVIZ with ROS2.",
       tags: [
-        { name: "OpenCV", color: "blue-text-gradient" },
-        { name: "Matplotlib", color: "green-text-gradient" },
+        { name: "Robotics", color: "blue-text-gradient" },
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: threedof,
+      link: "./page2"
     },
     {
       name: "High Precision 1-DOF Robot ",
       description:
         "Utilize cascade PID control with C language on STM32 Nucleo-F411R for control a DC motor to rotate 50 cm robot arm with less than 5 mm error.",
       tags: [
-        { name: "OpenCV", color: "blue-text-gradient" },
-        { name: "Matplotlib", color: "green-text-gradient" },
-        { name: "Python", color: "pink-text-gradient" },
+        { name: "Robotics", color: "blue-text-gradient" },
+        { name: "C", color: "green-text-gradient" },
       ],
       image: onedof,
+      link: "./page2"
     },
   ];
