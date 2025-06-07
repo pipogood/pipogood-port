@@ -55,7 +55,7 @@ const Project = () => {
   return (
     <>
       {/* <motion.div variants={textVariant()}> */}
-        <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Projects</h2>
+        <h2 className={`${styles.sectionHeadText} text-center mt-2`}>Projects</h2>
       {/* </motion.div> */}
       <div className="w-full flex justify-center items-center">
         {/* <motion.p variants={fadeIn("", "", 0.1)} className="mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]"> */}
