@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import About from "./About";
 import Experience from "./Experience";
 import Project from "./Project";
-import Education from "./education";
+import Education from "./Education";
 import Navbar_back from "./Navbar_back";
 export{
     Navbar,
