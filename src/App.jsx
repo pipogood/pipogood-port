@@ -7,10 +7,10 @@ import Page2 from './Pages/Page2.jsx';
 const Home = () => (
   <>
     <Navbar />
-    {/* <About />
+    <About />
     <Education />
     <Experience />
-    <Project /> */}
+    <Project />
   </>
 );
  

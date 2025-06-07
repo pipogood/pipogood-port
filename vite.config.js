@@ -10,5 +10,5 @@ export default defineConfig({
     tailwindcss()
   ],
   // base:"/pipogood-port/",
-  base: '/pipogood-port',
+  base: process.env.VITE_BASE_PATH ||'/pipogood-port',
 })
