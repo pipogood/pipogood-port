@@ -16,7 +16,7 @@ const About = () => {
             <img
               src={logo} // ← replace with your image path
               alt="Profile"
-              className="w-48 h-48 rounded-full object-cover mb-2 mt-10"
+              className="w-48 h-48 rounded-full object-cover mb-2"
             />
           </div>
           <h1 className={`${styles.heroHeadText} text-white`}>
