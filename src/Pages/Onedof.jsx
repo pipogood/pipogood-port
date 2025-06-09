@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import {Navbar} from '../components'
 
 const Onedof = () => {
+  window.scrollTo(0, 0);
 return (
     <>
       <Navbar />

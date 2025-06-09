@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import {Navbar} from '../components'
 
 const Gui = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <Navbar />
