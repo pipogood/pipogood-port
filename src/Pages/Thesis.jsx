@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import {Navbar_back, Navbar} from '../components'
 
 const Thesis = () => {
+  window.scrollTo(0, 0);
   return (
     <>
       <Navbar />
