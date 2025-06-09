@@ -18,7 +18,7 @@ const Thesis = () => {
         <h1 className="text-4xl font-bold mb-4">BCI-Motor Imagery</h1>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/thesis/1.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/thesis/1.png" className="rounded w-170 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -34,7 +34,7 @@ const Thesis = () => {
           real-world virtual character direction control.
         </p>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/thesis/2.png" className="rounded w-150 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/thesis/2.png" className="rounded w-150 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -42,7 +42,7 @@ const Thesis = () => {
           and a 250 Hz sampling rate can be used, connected via Bluetooth.
         </p>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/thesis/3.png" className="rounded w-110 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/thesis/3.png" className="rounded w-110 h-full object-cover"/>
         </div>
 
         <h2 className="text-4xl font-semibold mt-10 mb-4">Demonstration Video</h2>
