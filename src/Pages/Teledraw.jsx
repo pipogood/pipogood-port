@@ -3,12 +3,12 @@ import React from 'react';
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back} from '../components'
+import {Navbar} from '../components'
 
 const Teledraw = () => {
   return (
     <>
-      <Navbar_back />
+      <Navbar />
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Teleoperation of Portrait Drawing with Robot Arm</h2>
       </motion.div>
@@ -25,7 +25,7 @@ const Teledraw = () => {
 
         <h2 className="text-2xl font-semibold mt-10 mb-2">System Architecture</h2>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Teledraw/1.webp" className="rounded w-150 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Teledraw/1.webp" className="rounded w-150 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-4">
@@ -38,7 +38,7 @@ const Teledraw = () => {
 
         <h2 className="text-2xl font-semibold mt-10 mb-2">Image Processing Step</h2>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Teledraw/2.webp" className="rounded w-110 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Teledraw/2.webp" className="rounded w-150 h-full object-cover"/>
         </div>
 
         <h2 className="text-4xl font-semibold mt-10 mb-4">Demonstration Video</h2>

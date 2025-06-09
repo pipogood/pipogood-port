@@ -1,12 +1,12 @@
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back} from '../components'
+import {Navbar} from '../components'
 
 const Mobot = () => {
   return (
     <>
-      <Navbar_back />
+      <Navbar />
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>META MOBOT</h2>
       </motion.div>
@@ -16,8 +16,8 @@ const Mobot = () => {
         <h1 className="text-4xl font-bold mb-4">What is META MOBOT</h1>
 
         <div className="flex flex-row items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/1.png" className="rounded w-83 h-full object-cover" />
-          <img src="./src/assets/projects/Mobot/2.jpg" className="rounded w-75 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/1.png" className="rounded w-83 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/2.jpg" className="rounded w-75 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -30,8 +30,8 @@ const Mobot = () => {
 
         <h2 className="text-2xl font-semibold mt-10 mb-2">Exhibition: FIBO ON TOUR</h2>
         <div className="flex flex-row items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/3.jpg" className="rounded w-80 h-full object-cover" />
-          <img src="./src/assets/projects/Mobot/4.jpg" className="rounded w-87 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/3.jpg" className="rounded w-80 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/4.jpg" className="rounded w-87 h-full object-cover" />
         </div>
         <p className="text-lg leading-7 mb-4">
           On 17-18 September 2022 & 12-15 January 2023, Meta MOBOT has the mission in “FIBO ON TOUR” and “Kids Day: Futureland” at Central Rama IX, Bangkok. 
@@ -41,7 +41,7 @@ const Mobot = () => {
         </p>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/5.png" className="rounded w-200 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/5.png" className="rounded w-200 h-full object-cover"/>
         </div>
         
 
@@ -61,7 +61,7 @@ const Mobot = () => {
         <h2 className="text-4xl font-semibold mt-20 mb-10 text-center">Main Role – Robot Software Developer</h2>
         
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/6.webp" className="rounded w-200 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/6.webp" className="rounded w-200 h-full object-cover"/>
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -73,7 +73,7 @@ const Mobot = () => {
 
         <h2 className="text-2xl font-semibold mt-10 mb-2">META MOBOT – Mobility</h2>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/7.webp" className="rounded w-200 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/7.webp" className="rounded w-200 h-full object-cover"/>
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -86,7 +86,7 @@ const Mobot = () => {
 
         <h2 className="text-2xl font-semibold mt-10 mb-2">META MOBOT – Lidar Detection</h2>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/8.png" className="rounded w-200 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/8.png" className="rounded w-200 h-full object-cover"/>
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -98,7 +98,7 @@ const Mobot = () => {
 
         <h2 className="text-2xl font-semibold mt-10 mb-2">META MOBOT – Manipulation</h2>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/9.webp" className="rounded w-200 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/9.webp" className="rounded w-200 h-full object-cover"/>
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -116,8 +116,8 @@ const Mobot = () => {
         </p>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Mobot/10.webp" className="rounded w-200 h-full object-cover mb-0.5"/>
-          <img src="./src/assets/projects/Mobot/11.webp" className="rounded w-200 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/10.webp" className="rounded w-200 h-full object-cover mb-0.5"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/11.webp" className="rounded w-200 h-full object-cover"/>
 
         </div>
 
@@ -128,8 +128,8 @@ const Mobot = () => {
         </p>
 
         <div className="flex flex-col items-center justify-center mt-6">
-          <img src="./src/assets/projects/Mobot/12.png" className="rounded w-200 h-full object-cover mb-0.5"/>
-          <img src="./src/assets/projects/Mobot/13.png" className="rounded w-200 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/12.png" className="rounded w-200 h-full object-cover mb-0.5"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Mobot/13.png" className="rounded w-200 h-full object-cover"/>
 
         </div>
 

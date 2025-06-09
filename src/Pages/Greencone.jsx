@@ -3,12 +3,12 @@ import React from 'react';
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back} from '../components'
+import {Navbar} from '../components'
 
 const Greencone = () => {
   return (
     <>
-      <Navbar_back />
+      <Navbar />
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Green Cone, Sensor data visualization</h2>
       </motion.div>
@@ -18,7 +18,7 @@ const Greencone = () => {
         <h1 className="text-4xl font-bold mb-4">What is GreenCone</h1>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Greencone/1_1.png" alt="Motor Imagery Graph" className="rounded w-120 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/GreenCone/1_1.png" alt="Motor Imagery Graph" className="rounded w-120 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -29,8 +29,8 @@ const Greencone = () => {
         <h1 className="text-4xl font-bold mb-4">Project Concept</h1>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Greencone/1_2.png" alt="Motor Imagery Graph" className="rounded w-120 h-full object-cover mb-0.5" />
-          <img src="./src/assets/projects/Greencone/1.jpg" alt="Motor Imagery Graph" className="rounded w-120 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/GreenCone/1_2.png" alt="Motor Imagery Graph" className="rounded w-120 h-full object-cover mb-0.5" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/GreenCone/1.jpg" alt="Motor Imagery Graph" className="rounded w-120 h-full object-cover" />
 
         </div>
 
@@ -47,9 +47,9 @@ const Greencone = () => {
           4. Optimizing the system for real-time performance and user accessibility through responsive design and intuitive layout.<br/>
         </p>
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Greencone/2.png" className="rounded w-150 h-full object-cover mb-2" />
-          <img src="./src/assets/projects/Greencone/3.png" className="rounded w-150 h-full object-cover mb-2" />
-          <img src="./src/assets/projects/Greencone/4.png" className="rounded w-150 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/GreenCone/2.png" className="rounded w-150 h-full object-cover mb-2" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/GreenCone/3.png" className="rounded w-150 h-full object-cover mb-2" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/GreenCone/4.png" className="rounded w-150 h-full object-cover" />
         </div>
 
       

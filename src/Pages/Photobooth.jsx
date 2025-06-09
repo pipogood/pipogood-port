@@ -3,12 +3,12 @@ import React from 'react';
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back} from '../components'
+import {Navbar} from '../components'
 
 const Photobooth = () => {
   return (
     <>
-      <Navbar_back />
+      <Navbar />
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>AI-Photobooth</h2>
       </motion.div>
@@ -18,8 +18,8 @@ const Photobooth = () => {
         <h1 className="text-4xl font-bold mb-4">Key Concept</h1>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Photobooth/1.jpg" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover mb-0.5" />
-          <img src="./src/assets/projects/Photobooth/2.jpg" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Photobooth/1.jpg" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover mb-0.5" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Photobooth/2.jpg" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
 
         </div>
 
@@ -31,7 +31,7 @@ const Photobooth = () => {
         <h2 className="text-2xl font-semibold mt-10 mb-2">My responsibilities</h2>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Photobooth/3.png" className="rounded w-200 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Photobooth/3.png" className="rounded w-200 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">

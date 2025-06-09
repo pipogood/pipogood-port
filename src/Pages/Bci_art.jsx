@@ -3,12 +3,12 @@ import React from 'react';
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back} from '../components'
+import {Navbar} from '../components'
 
 const Bci_art = () => {
   return (
     <>
-      <Navbar_back />
+      <Navbar />
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Virtual Art BCI</h2>
       </motion.div>
@@ -18,7 +18,7 @@ const Bci_art = () => {
         <h1 className="text-4xl font-bold mb-4">Key Concept</h1>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Virtual_art/1.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Virtual_art/1.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -26,7 +26,7 @@ const Bci_art = () => {
         </p>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Virtual_art/2.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Virtual_art/2.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -38,7 +38,7 @@ const Bci_art = () => {
         <h2 className="text-2xl font-semibold mt-10 mb-2">Implementation-Preprocessing</h2>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Virtual_art/3.jpg" className="rounded w-150 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Virtual_art/3.jpg" className="rounded w-150 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
@@ -50,7 +50,7 @@ const Bci_art = () => {
         <h2 className="text-2xl font-semibold mt-10 mb-2">Implementation-Art Generation</h2>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/Virtual_art/4.png" className="rounded w-110 h-full object-cover"/>
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/Virtual_art/4.png" className="rounded w-200 h-full object-cover"/>
         </div>
 
         <p className="text-lg leading-7 mb-6">

@@ -3,7 +3,7 @@ import React from 'react';
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back, Navbar} from '../components'
+import { Navbar} from '../components'
 
 const Thesis = () => {
   window.scrollTo(0, 0);

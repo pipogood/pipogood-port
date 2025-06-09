@@ -3,12 +3,12 @@ import React from 'react';
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back} from '../components'
+import {Navbar} from '../components'
 
 const Gui = () => {
   return (
     <>
-      <Navbar_back />
+      <Navbar />
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Real-time BCI GUI</h2>
       </motion.div>
@@ -21,7 +21,7 @@ const Gui = () => {
         </p>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/BCI_GUI/1.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/BCI_GUI/1.png" alt="Motor Imagery Graph" className="rounded w-200 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-4">

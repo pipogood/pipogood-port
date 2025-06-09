@@ -3,12 +3,12 @@ import React from 'react';
 import { styles } from "../styles";
 import { textVariant } from "../utils/motion";
 import { motion } from "framer-motion";
-import {Navbar_back} from '../components'
+import {Navbar} from '../components'
 
 const Threedof = () => {
 return (
     <>
-      <Navbar_back />
+      <Navbar />
       <motion.div variants={textVariant()}>
         <h2 className={`${styles.sectionHeadText} text-center mt-25`}>3DOF robotic arm Trajectory Tracking System</h2>
       </motion.div>
@@ -24,7 +24,7 @@ return (
         <h2 className="text-2xl font-semibold mt-10 mb-2">System Architechture</h2>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./src/assets/projects/3dof/1.webp" className="rounded w-150 h-full object-cover mb-0.5" />
+          <img src="https://raw.githubusercontent.com/pipogood/pipogood-port/refs/heads/main/public/assets/projects/3dof/1.webp" className="rounded w-150 h-full object-cover mb-0.5" />
         </div>
 
         <p className="text-lg leading-7 mb-6">

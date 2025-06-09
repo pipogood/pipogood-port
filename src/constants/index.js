@@ -107,7 +107,7 @@ import {
         { name: "Python", color: "orange-text-gradient" },
       ],
       image: meta,
-      link: "./mobot"
+      link: "./#/mobot"
     },
     {
       name: "AI-Photobooth",
@@ -120,7 +120,7 @@ import {
         { name: "Javascript", color: "orange-text-gradient" },
       ],
       image: photobooth,
-      link: "./photobooth"
+      link: "./#/photobooth"
     },
     {
       name: "Real-time EEG Monitoring GUI", 
@@ -131,7 +131,7 @@ import {
         { name: "Python", color: "blue-text-gradient"},
       ],
       image: gui,
-      link: "./gui"
+      link: "./#/gui"
     },
     {
       name: "Virtual art BCI",
@@ -142,7 +142,7 @@ import {
         { name: "Python", color: "green-text-gradient" },
       ],
       image: virart,
-      link: "./bci_art"
+      link: "./#/bci_art"
     },
     {
       name: "Teleoperation of Portrait Drawing with Robot Arm",
@@ -154,7 +154,7 @@ import {
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: teledraw,
-      link: "./teledraw"
+      link: "./#/teledraw"
     },
     {
       name: "Voice Controlled Robot Arm",
@@ -166,7 +166,7 @@ import {
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: voice,
-      link: "./voice"
+      link: "./#/voice"
     },
     {
       name: "Green Cone, Sensor data visualization",
@@ -177,7 +177,7 @@ import {
         { name: "HTML/CSS", color: "blue-text-gradient" },
       ],
       image: greencone,
-      link: "./greencone"
+      link: "./#/greencone"
     },
     {
       name: "3-DOF Robotic Arm Trajectory Tracking System",
@@ -188,7 +188,7 @@ import {
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: threedof,
-      link: "./threedof"
+      link: "./#/threedof"
     },
     {
       name: "High Precision 1-DOF Robot ",
@@ -199,6 +199,6 @@ import {
         { name: "C", color: "green-text-gradient" },
       ],
       image: onedof,
-      link: "./onedof"
+      link: "./#/onedof"
     },
   ];
