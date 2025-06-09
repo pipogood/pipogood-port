@@ -49,6 +49,7 @@ const ProjectCard = ({ name, description, tags, image, link}) => {
 
 const Project = () => {
   return (
+    <section id="project">
     <>
       <h2 className={`${styles.sectionHeadText} text-center mt-2`}>Projects</h2>
       <div className="w-full flex justify-center items-center">
@@ -61,6 +62,7 @@ const Project = () => {
         ))}
       </div>
     </>
+    </section>
   );
 };
 

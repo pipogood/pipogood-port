@@ -10,7 +10,7 @@ import {logo} from '../assets';
 
 const About = () => {
   return (
-    <section className="flex items-center justify-center w-full h-[800px] mx-auto">
+    <section id="about" className="flex items-center justify-center w-full h-[800px] mx-auto">
       <div className="max-w-7xl text-center px-4">
          <div className="flex flex-col items-center justify-center">
             <img

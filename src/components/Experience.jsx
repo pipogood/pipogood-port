@@ -52,6 +52,7 @@ const ExperienceCard = ({ experience }) => (
 );
 
 const Experience = () => (
+  <section id="work">
   <>
     <motion.div variants={textVariant()}>
       <h2 className={`${styles.sectionHeadText} text-center mt-25`}>Work Experience</h2>
@@ -65,6 +66,7 @@ const Experience = () => (
       </VerticalTimeline>
     </div>
   </>
+  </section>
 );
 // export default Experience;
 
