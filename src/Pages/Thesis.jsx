@@ -18,7 +18,7 @@ const Thesis = () => {
         <h1 className="text-4xl font-bold mb-4">BCI-Motor Imagery</h1>
 
         <div className="flex flex-col items-center justify-center mt-6 mb-6">
-          <img src="./pipogood-port/assets/projects/thesis/1.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
+          <img src="/assets/projects/thesis/1.png" alt="Motor Imagery Graph" className="rounded w-170 h-full object-cover" />
         </div>
 
         <p className="text-lg leading-7 mb-6">
