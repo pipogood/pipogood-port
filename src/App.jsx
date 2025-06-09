@@ -26,7 +26,7 @@ const Home = () => (
 const App = () => {
 
     return (
-      <BrowserRouter basename='/pipogood-port'>
+      <Router>
       {/* // <BrowserRouter> */}
 
         <div className="relative z-0 bg-black-100 bg-cover bg-no-repeat bg-center">
@@ -45,7 +45,7 @@ const App = () => {
 
           </Routes>
         </div>
-      </BrowserRouter>
+      </Router>
     );
 }
 

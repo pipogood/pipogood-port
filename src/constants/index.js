@@ -96,7 +96,7 @@ import {
         { name: "Python", color: "orange-text-gradient" },
       ],
       image: thesis,
-      link: "./pipogood-port/thesis"
+      link: "./#/thesis"
     },
     {
       name: "META MOBOT",
