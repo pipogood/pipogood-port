@@ -1,17 +1,5 @@
 import {
-    c,
-    python,
-    java,
-    cpp,
-    javascript,
-    html,
-    css,
-    reactjs,
-    tailwind,
-    nodejs,
-    git,
     hci,
-    threejs,
     nx,
     mitsu,
     kmutt,
@@ -42,23 +30,6 @@ import {
     },
   ];
 
-  export const services = [
-    { title: "C", icon: c },
-    { title: "C++", icon: cpp },
-    { title: "Python", icon: python },
-    { title: "Java", icon: java },
-  ];
-  
-  export const technologies = [
-    { name: "HTML 5", icon: html },
-    { name: "CSS 3", icon: css },
-    { name: "JavaScript", icon: javascript },
-    { name: "Rect JS", icon: reactjs },
-    { name: "Tailwind CSS", icon: tailwind },
-    { name: "Node JS", icon: nodejs },
-    { name: "Three JS", icon: threejs },
-    { name: "git", icon: git },
-  ];
 
   export const experiences = [
     {
@@ -125,7 +96,7 @@ import {
         { name: "Python", color: "orange-text-gradient" },
       ],
       image: thesis,
-      link: "./page2"
+      link: "./thesis"
     },
     {
       name: "META MOBOT",
@@ -136,7 +107,7 @@ import {
         { name: "Python", color: "orange-text-gradient" },
       ],
       image: meta,
-      link: "./page2"
+      link: "./mobot"
     },
     {
       name: "AI-Photobooth",
@@ -149,7 +120,7 @@ import {
         { name: "Javascript", color: "orange-text-gradient" },
       ],
       image: photobooth,
-      link: "./page2"
+      link: "./photobooth"
     },
     {
       name: "Real-time EEG Monitoring GUI", 
@@ -160,7 +131,7 @@ import {
         { name: "Python", color: "blue-text-gradient"},
       ],
       image: gui,
-      link: "./page2"
+      link: "./gui"
     },
     {
       name: "Virtual art BCI",
@@ -171,7 +142,7 @@ import {
         { name: "Python", color: "green-text-gradient" },
       ],
       image: virart,
-      link: "./page2"
+      link: "./bci_art"
     },
     {
       name: "Teleoperation of Portrait Drawing with Robot Arm",
@@ -183,7 +154,7 @@ import {
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: teledraw,
-      link: "./page2"
+      link: "./teledraw"
     },
     {
       name: "Voice Controlled Robot Arm",
@@ -195,7 +166,7 @@ import {
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: voice,
-      link: "./page2"
+      link: "./voice"
     },
     {
       name: "Green Cone, Sensor data visualization",
@@ -206,7 +177,7 @@ import {
         { name: "HTML/CSS", color: "blue-text-gradient" },
       ],
       image: greencone,
-      link: "./page2"
+      link: "./greencone"
     },
     {
       name: "3-DOF Robotic Arm Trajectory Tracking System",
@@ -217,7 +188,7 @@ import {
         { name: "Python", color: "pink-text-gradient" },
       ],
       image: threedof,
-      link: "./page2"
+      link: "./threedof"
     },
     {
       name: "High Precision 1-DOF Robot ",
@@ -228,6 +199,6 @@ import {
         { name: "C", color: "green-text-gradient" },
       ],
       image: onedof,
-      link: "./page2"
+      link: "./onedof"
     },
   ];

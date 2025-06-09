@@ -3,14 +3,12 @@ import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+// import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ name, description, tags, image, link}) => {
   return (
-    // <motion.div variants={fadeIn("up", "spring")}>
       <Tilt
         options={{
           max: 45,
@@ -46,22 +44,16 @@ const ProjectCard = ({ name, description, tags, image, link}) => {
         </div>
 
       </Tilt>
-
-    /* </motion.div> */
   );
 };
 
 const Project = () => {
   return (
     <>
-      {/* <motion.div variants={textVariant()}> */}
-        <h2 className={`${styles.sectionHeadText} text-center mt-2`}>Projects</h2>
-      {/* </motion.div> */}
+      <h2 className={`${styles.sectionHeadText} text-center mt-2`}>Projects</h2>
       <div className="w-full flex justify-center items-center">
-        {/* <motion.p variants={fadeIn("", "", 0.1)} className="mt-5 text-secondary text-[17px] max-w-3xl leading-[30px]"> */}
           Following projects showcase my skills and experience through examples
           of my work in field of ROBOTICS AI and PROGRAMMING.
-        {/* </motion.p> */}
       </div>
       <div className="mt-10 mb-10 flex flex-wrap gap-7 justify-center items-center">
         {projects.map((project, index) => (
